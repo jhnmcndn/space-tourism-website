@@ -3,15 +3,15 @@
 *::after {
   margin: 0;
   padding: 0;
+  border: 0;
+  outline: 0;
   box-sizing: inherit;
-}
-
-body {
-  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html {
-  font-size: 62.5% !important;
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 li {
